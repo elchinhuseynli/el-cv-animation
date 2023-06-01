@@ -1,0 +1,24 @@
+.about_p {
+  overflow: hidden;
+}
+
+.about_p span {
+  display: inline-block;
+  /* transform: translateY(100%); */
+}
+
+.about_title .word {
+  overflow: hidden;
+}
+
+.about_title .char {
+  transform-origin: bottom;
+}
+
+.section.is-tech .section-title_desc-wrapper {
+  overflow: hidden;
+}
+
+.section.is-intro .about_p .line {
+  display: inline;
+}
