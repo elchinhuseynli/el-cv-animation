@@ -5,16 +5,19 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
 gsap.registerPlugin(ScrollTrigger);
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const splitLines = new SplitType('[animate-lines]', {
   types: 'lines',
   tagName: 'span',
 });
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const splitWords = new SplitType('[animate-words]', {
   types: 'words',
   tagName: 'span',
 });
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const splitChars = new SplitType('[animate-chars]', {
   types: 'chars',
   tagName: 'span',
