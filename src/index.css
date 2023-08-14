@@ -22,3 +22,9 @@
 .section.is-intro .about_p .line {
   display: inline;
 }
+
+.word,
+.char,
+.line {
+  font-kerning: none;
+}

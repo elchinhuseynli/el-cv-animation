@@ -82,44 +82,41 @@ gsap.from('.section.is-intro .paragraph .line', {
   },
 });
 
-gsap.from('.section.is-intro .about_p .line', {
-  y: '100%',
+gsap.from('.section.is-intro .about_p', {
+  y: '50%',
   filter: 'blur(5px)',
   opacity: 0,
   duration: 1,
   ease: 'Power2.out',
-  stagger: 0.1,
+  // stagger: 0.1,
   scrollTrigger: {
     trigger: '.section.is-intro .about_p',
     start: 'center 70%',
     end: 'center 20%',
-    scrub: true,
+    scrub: false,
+    toggleActions: 'play none none reverse',
   },
 });
 
-const introImage = document.querySelector('.section.is-intro img');
-gsap.from(introImage, {
-  y: '200%',
-  x: '-50%',
-  opacity: 0,
-  duration: 1,
-  ease: 'Second.out',
-  scrollTrigger: {
-    trigger: '.section.is-intro',
-    start: 'top 70%',
-    end: 'center 50%',
-    scrub: 0.5,
-  },
-});
+// const introImage = document.querySelector('.section.is-intro img');
+// gsap.from(introImage, {
+//   y: '200%',
+//   x: '-50%',
+//   opacity: 0,
+//   duration: 1,
+//   ease: 'Second.out',
+//   scrollTrigger: {
+//     trigger: '.section.is-intro',
+//     start: 'top 70%',
+//     end: 'center 50%',
+//     scrub: 0.5,
+//   },
+// });
 
 gsap.from('.section.is-intro .about_title .char', {
   color: '#fff',
-  // y: '100%',
   rotateX: 90,
   filter: 'blur(5px)',
-
-  // skewY: 10,
-  // opacity: 0,
   duration: 1,
   ease: 'Second.out',
   stagger: 0.2,
