@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css"],
+  "sourcesContent": [".about_p {\n  overflow: hidden;\n}\n\n.about_p span {\n  display: inline-block;\n  /* transform: translateY(100%); */\n}\n\n.about_title .word {\n  overflow: hidden;\n}\n\n.about_title .char {\n  transform-origin: bottom;\n}\n\n.section.is-tech .section-title_desc-wrapper {\n  overflow: hidden;\n}\n\n.section.is-intro .about_p .line {\n  display: inline;\n}\n\n.word,\n.char,\n.line {\n  font-kerning: none;\n}\n"],
+  "mappings": ";AAAA;AACE;AAAA;AAGF;AACE;AAAA;AAIF;AACE;AAAA;AAGF;AACE;AAAA;AAGF;AACE;AAAA;AAGF;AACE;AAAA;AAGF;AAAA;AAAA;AAGE;AAAA;",
+  "names": []
+}
